@@ -20,7 +20,7 @@ $ mpirun -np 8 pfc case
 ```
 Here -np 8 indicates that eight CPUs will be used for the computation. The text string "case" is the name for the study case - the input file must be "case.in", numerical output appears in "case.out" and data files begin with "case".
 
-####java tool
+#### Java tool
 
 A tool written in Java for mapping the PFC density fields into atomic coordinates for further atomistic calculations is provided. It's composed of the classes "Coordinator", "Point" and "V". For a 1024-by-1024 case "step2" it can be run as
 ```
@@ -38,3 +38,13 @@ $ awk '{print $1,1,$2,$3,0}' step2-t\:10000.xy > graphene.xyz
 ```
 Then edit the '.xyz' file.
 
+```
+24231  #the number of atomic
+
+1 1 18.084926676330312 240.3723222620622 0  #Serial, type, positon x, positon y, positon z
+2 1 18.949856178256102 241.55177099813596 0
+...
+```
+Open it by Ovito and save to Lammps's data file.
+
+You can also use the shell file to run the PFC code while the code has been compiled.
