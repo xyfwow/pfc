@@ -36,7 +36,7 @@ Use awk command to transform the '.xy' file to '.xyz' file in order to open it i
 ```
 $ awk '{print $1,1,$2,$3,0}' step2-t\:10000.xy > graphene.xyz
 ```
-Then edit the '.xyz' file.
+Then edit the '.xyz' file to the following form.
 
 ```
 24231  #the number of atomic
