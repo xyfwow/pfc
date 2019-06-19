@@ -20,7 +20,7 @@ $ export LD_LIBRARY_PATH=/dir fftw/lib:$LD_LIBRARY_PATH
 ```
 下面以example为例，进行建模
 
-文件夹中有两个in文件，两个输入文件演示了一个快速的两阶段过程。'step1.in'应用保守动力学，建立模型并计算晶粒生长，'step2.in'则应用非保守动力学，在step1的基础上将晶界清晰化。详细过程可以参照原文[Parctial considerations](https://github.com/petenez/pfc#practical-considerations)b部分。
+文件夹中有两个in文件，两个输入文件演示了一个快速的两阶段过程。'step1.in'应用保守动力学，建立模型并计算晶粒生长，'step2.in'则应用非保守动力学，在step1的基础上将晶界清晰化。详细过程可以参照原文[Parctial considerations](https://github.com/petenez/pfc#practical-considerations)部分。
 
 进入example文件夹中，运行
 ```
