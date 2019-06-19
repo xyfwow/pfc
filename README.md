@@ -20,6 +20,8 @@ $ export LD_LIBRARY_PATH=/dir fftw/lib:$LD_LIBRARY_PATH
 ```
 下面以example为例，进行建模
 
+文件夹中有两个in文件，两个输入文件演示了一个快速的两阶段过程。'step1.in'应用保守动力学，建立模型并计算晶粒生长，'step2.in'则应用非保守动力学，在step1的基础上将晶界清晰化。详细过程可以参照https://github.com/petenez/pfc#practical-considerations。
+
 进入example文件夹中，运行
 ```
 $ mpirun -np 8 ../src/pfc step1
@@ -73,6 +75,7 @@ I	2		step1-t:10000.dat	-0.072	0.1
 
 注意：1、'step1.in'和'step2.in'的尺寸需要相同，同时吻合下面Java工具中设定的尺寸；
      2、将W和H设置为1024 * 1024，实际大小约为243 nm。
+     3、自己编写in文件时，
 
 
 ### Java tool
