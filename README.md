@@ -1,6 +1,6 @@
 # Implementation of PFC code 
 
-https://github.com/abhpc/pfc
+https://github.com/petenez/pfc
 
 In order to run this code, MPI and FFTW need to be installed.
 
