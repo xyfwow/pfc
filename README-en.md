@@ -49,4 +49,4 @@ Then edit the '.xyz' file to the following form.
 ```
 Open it by Ovito and save to Lammps's data file.
 
-You can also use the shell file to run the PFC code while the code has been compiled.
+You can also use the Shell file to run the PFC code while the code has been compiled.
