@@ -2,6 +2,8 @@
 
 https://github.com/petenez/pfc
 
+[English](README.md) | [中文](README-zh.md)
+
 In order to run this code, MPI and FFTW need to be installed.
 
 The code can be compiled with the command
