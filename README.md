@@ -42,7 +42,7 @@ I	1		  0.7	0.7	7.2552	0.25	-0.1	10	2.0
 
 注意：'step1.in'和'step2.in'的尺寸需要相同，同时吻合下面Java工具中设定的尺寸。
 
-#### Java tool
+### Java tool
 通过Java工具将PFC密度场映射到原子坐标，以便进行进一步的原子计算。它由'Coordinator'、'Point'和'V'组成。对于1024 * 1024的'step2'，可以这样运行
 ```
 $ java -jar coordinator.jar step2-t\:10000.dat 1024 1024 0.7 0.7 7.3 2.46 step2-t\:10000.xy step2-t\:10000.nh
