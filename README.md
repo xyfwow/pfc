@@ -22,7 +22,7 @@ $ mpirun -np 8 pfc case
 ```
 '-np 8'表示使用8核进行计算。'case'表示算例的名称，输入文件必须命名为'case.in'，输出的结果文件为'case.out'并且数据文件以'case'开头。
 
-比如example中输入文件为'step1.in'，那么会输出'step1.out'和'step1'开头的数据文件。
+比如example文件夹中输入文件为'step1.in'，那么会输出'step1.out'和'step1'开头的数据文件。
 
 通过修改输入文件的内容来修改种子数量和模型尺寸
 ```
