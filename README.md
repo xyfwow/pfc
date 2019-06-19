@@ -115,5 +115,6 @@ $ awk '{print $1,1,$2,$3,0}' step2-t\:10000.xy > graphene.xyz
 ...
 ```
 使用Ovito打开并另存为Lammps数据文件，就可以进行计算了。
+在Ovito中，第一列选择粒子id，第二列为粒子类型，第三到五列为x、y、z方向的位置。
 
 可以使用Shell文件来运行PFC代码。
